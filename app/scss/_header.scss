@@ -4,7 +4,7 @@
     }
     &__logo{
         img{
-
+            //imagen
         }
     }
     &__menu{//Mobile Menu
@@ -17,5 +17,15 @@
                 margin-bottom: 3px;
             }
         }
+    }
+    &__links{
+        a{
+            font-size: $font-sm;
+            color: $grayishBlue;
+        }
+    }
+    &__cta{
+        font-size: $font-sm;
+        color: $white;
     }
 }
