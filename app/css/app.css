@@ -349,6 +349,12 @@ button:hover::before, .button:hover::before {
   padding: 0.625rem;
   color: #2d314d;
   text-align: center;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.header__menu a:hover {
+  color: #31d35c;
 }
 
 .header__links a {

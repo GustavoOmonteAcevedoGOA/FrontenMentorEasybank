@@ -70,6 +70,10 @@
             padding: 0.625rem;
             color: $darkBlue;
             text-align: center;
+            transition: all 150ms ease-in-out;
+            &:hover{
+                color: $limeGreen;
+            }
         }
     }
     &__links{
